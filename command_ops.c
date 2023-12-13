@@ -16,6 +16,7 @@ void (*cget(char *f_r, unsigned int t, stack_t **lt))(stack_t**, unsigned int)
 		{"pint", f_pint},
 		{"pall", f_pall},
 		{"pop", f_pop},
+		{"nop", f_empty},
 		{NULL, NULL}
 	};
 	for (num = 0; command[num].opcode != NULL; num++)
