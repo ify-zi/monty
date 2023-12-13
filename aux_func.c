@@ -5,7 +5,7 @@
  * @str: string literal
  * Return: 1 if true and 0 if false
  */
- 
+
 int _isdigit(char *str)
 {
 	int i = 0;

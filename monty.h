@@ -46,7 +46,7 @@ extern FILE *file;
 FILE *file;
 
 void (*command_func)(stack_t **, unsigned int);
-void (*cget(char *f_rep, unsigned int l_int, stack_t **list))(stack_t**, unsigned int);
+void (*cget(char *f_r, unsigned int t, stack_t **lt))(stack_t**, unsigned int);
 
 /* Declaration of functions */
 void f_push(stack_t **stack, unsigned int line_number, char *tmp);

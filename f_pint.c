@@ -4,7 +4,7 @@
  * f_pint -prints top
  * @stack: pointer to head of the stack
  * @line_number: where the instruction appear
- * Return: nothing upon success,else  EXIT_FAILURE 
+ * Return: nothing upon success,else  EXIT_FAILURE
  */
 void f_pint(stack_t **stack, unsigned int line_number)
 {
