@@ -20,6 +20,9 @@ void (*cget(char *f_r, unsigned int t, stack_t **lt))(stack_t**, unsigned int)
 		{"swap", f_swap},
 		{"add", f_add},
 		{"sub", f_sub},
+		{"div", f_div},
+		{"mul", f_mul},
+		{"mod", f_mod},
 		{NULL, NULL}
 	};
 	for (num = 0; command[num].opcode != NULL; num++)
